@@ -1,0 +1,12 @@
+[package]
+name = "inputspy"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rdev = "0.5.3"
+napi = { version = "3", features = ["full"] }
+napi-derive = "3"

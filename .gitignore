@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+target/
+*.node
+index.node
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Rust
+Cargo.lock

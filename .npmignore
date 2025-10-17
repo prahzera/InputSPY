@@ -1,0 +1,16 @@
+# Build directories
+target/
+
+# Source files
+src/
+
+# Configuration
+Cargo.toml
+Cargo.lock
+
+# Tests
+test.js
+example.js
+
+# Documentation
+README_es.md

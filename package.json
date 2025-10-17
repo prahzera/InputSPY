@@ -1,0 +1,34 @@
+{
+    "name": "inputspy",
+    "version": "0.1.0",
+    "description": "Global key listener using Rust and napi-rs",
+    "main": "index.js",
+    "files": [
+        "index.node",
+        "index.js",
+        "index.d.ts"
+    ],
+    "scripts": {
+        "build": "napi build --release"
+    },
+    "keywords": [
+        "keyboard",
+        "keylogger",
+        "input",
+        "listener",
+        "rust",
+        "napi",
+        "native",
+        "addon"
+    ],
+    "author": "prahzera",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prahzera/inputspy.git"
+    },
+    "bugs": {
+        "url": "https://github.com/prahzera/inputspy/issues"
+    },
+    "homepage": "https://github.com/prahzera/inputspy#readme"
+}
